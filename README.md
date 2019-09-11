@@ -1,2 +1,2 @@
-# kaigosyoninsya
-札幌支店「初任者研修受講料０円キャンペーン」
+# 確認用URL
+[https://nak-244.github.io/kaigosyoninsya/](https://nak-244.github.io/kaigosyoninsya/)
