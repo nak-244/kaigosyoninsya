@@ -150,7 +150,7 @@
      text-decoration:none;
      }
 
- body:before{
+ /* body:before{
      content:"";
      display:block;
      position:fixed;
@@ -161,4 +161,4 @@
      height:100vh;
      background:url(assets/img/3-2.jpg) center no-repeat;
      background-size:cover;
-     }
+     } */
