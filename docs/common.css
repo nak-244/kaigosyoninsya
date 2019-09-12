@@ -32,7 +32,7 @@
   }
 }
 
-/* テーブルのレスポンシブ 求人情報 */
+/* テーブルのレスポンシブ トップページ */
 .col-head-type1 {
   border-collapse: collapse;
   width: 100%;
@@ -69,7 +69,7 @@
 }
 
 
-/* テーブルのレスポンシブ 会社概要 */
+/* テーブルのレスポンシブ お問い合わせフォーム */
 .col-head-type2 {
   border-collapse: collapse;
   width: 100%;
@@ -82,9 +82,9 @@
 }
 
 .col-head-type2 th {
-  vertical-align: middle;
+  background: #f9fafc;
   text-align: left;
-  width: 300px;
+  width: 200px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -104,6 +104,7 @@
     border-top: none;
   }
 }
+
 
 /*
  * フロー　登録までの流れ
