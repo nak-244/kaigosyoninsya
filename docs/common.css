@@ -163,3 +163,13 @@
      background:url(assets/img/3-2.jpg) center no-repeat;
      background-size:cover;
      } */
+
+/*
+ * フロー　登録までの流れ
+ */
+.infobox {
+   height: 6.3em;/* 高さを制限(※) */
+   overflow: auto;  /* スクロールバーを表示(※) */
+   border: red 1px dashed;    /* 枠線を追加 */
+   background-color: #fff0f0; /* 背景色を追加 */
+}
