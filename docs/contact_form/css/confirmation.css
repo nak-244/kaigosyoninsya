@@ -5,7 +5,7 @@ input[type="submit"][value="送信"] {
   background: none;
   border-radius: 8px;
   border: none;
-  background: #5d3fff;
+  background: #e91e63;
   color: #fff;
   cursor: pointer;
 }
@@ -17,8 +17,8 @@ input[type="button"][value="戻る"] {
   font-size: 16px;
   background: none;
   border-radius: 8px;
-  border: 1px solid #5d3fff;
-  color: #5d3fff;
+  border: 1px solid #333333;
+  color: #333333;
   display: inline-block;
   cursor: pointer;
 }
