@@ -27,8 +27,7 @@
 
 <body class="">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCVLQV4"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCVLQV4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class="pt-5 pb-3">
     <div class="container">
@@ -42,82 +41,82 @@
       </div>
     </div>
   </div>
-    <form action="./contact_form/confirmation.php" method="post" enctype="multipart/form-data">
-  <div class="my-3">
+  <form action="./contact_form/confirmation.php" method="post" enctype="multipart/form-data">
+    <div class="my-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <table class="col-head-type2 table table-bordered">
+              <tbody>
+                <tr class="">
+                  <th nowrap=""><span class="text-danger">*</span>お名前</th>
+                  <td><input type="hidden" name="お名前[params]" value="名前">
+                    <input type="text" class="form-control" id="お名前" name="お名前[value]"></td>
+                </tr>
+                <tr>
+                  <th nowrap="" style="">電話番号</th>
+                  <td>
+                    <input type="hidden" name="電話番号[params]">
+                    <input type="text" class="form-control" id="電話番号" name="電話番号[value]">
+                  </td>
+                </tr>
+                <tr>
+                  <th nowrap=""><span class="text-danger">*</span>メールアドレス</th>
+                  <td>
+                    <input type="hidden" name="メールアドレス[params]" value="メール">
+                    <input type="text" class="form-control" id="メールアドレス" name="メールアドレス[value]">
+                  </td>
+                </tr>
+                <tr>
+                  <th nowrap="">問い合わせ内容</th>
+                  <td><textarea class="form-control" name="問い合わせ内容[value]" id="問い合わせ内容"></textarea></td>
+                </tr>
+                <tr>
+                  <th nowrap=""><span class="text-danger">*</span>個人情報の取り扱い</th>
+                  <td>
+                    <p class="infobox small">【利用目的】<br> 株式会社オープンループパートナーズ（以下当社）が取得した個人情報は、お問い合わせへの回答以外に使用することはございません。<br>
+                      <br> 【第三者提供】<br> 当社は、お預かりした個人情報を、法令の規定または司法手続きに基づく要請による場合を除き、第三者に提供することはございません。<br>
+                      <br> 【外部委託】<br> 当社は、お預かりした個人情報を委託することはございません。<br>
+                      <br> 【情報提供の任意性】<br> 当社への個人情報の提供は任意となっています。ただし、情報に漏れやミスがある場合、お問い合わせへの適切な回答ができない場合がございます。<br>
+                      <br> 【個人情報の開示等】<br> 個人情報の利用目的の通知、開示、訂正、追加または削除、利用又は提供の拒否、その他お問い合わせ等については、下記問い合わせ先までご一報ください。<br> 個人情報の取り扱いに関して、詳細は<a href="https://www.olp.co.jp/privacy/policy.html" target="_blank">個人情報保護方針</a>をご覧ください。<br>
+                      <br> ＜個人情報に関するお問い合わせ先＞<br> 03-5368-3762<br> privacyinfo@olp.co.jp<br> 個人情報保護管理者（HR本部 副本部長）</p>
+                    <div class="custom-control custom-radio">
+                      <input type="hidden" name="個人情報の取り扱い[params]" value="必須">
+                      <input type="radio" id="個人情報の取り扱い" name="個人情報の取り扱い[value][]" class="custom-control-input" value="個人情報の取り扱いに同意する">
+                      <label class="custom-control-label" for="個人情報の取り扱い">個人情報の取り扱いに同意する</label>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <input type="submit" value="確認" class="btn-primary d-flex my-4 mx-auto btn">
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="py-3 bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <table class="col-head-type2 table table-bordered">
-            <tbody>
-              <tr class="">
-                <th nowrap=""><span class="text-danger">*</span>お名前</th>
-                <td><input type="hidden" name="お名前[params]" value="名前">
-                  <input type="text" class="form-control" id="お名前" name="お名前[value]"></td>
-              </tr>
-              <tr>
-                <th nowrap="" style="">電話番号</th>
-                <td>
-                  <input type="hidden" name="電話番号[params]">
-                  <input type="text" class="form-control" id="電話番号" name="電話番号[value]">
-                </td>
-              </tr>
-              <tr>
-                <th nowrap=""><span class="text-danger">*</span>メールアドレス</th>
-                <td>
-                  <input type="hidden" name="メールアドレス[params]" value="メール">
-                  <input type="text" class="form-control" id="メールアドレス" name="メールアドレス[value]">
-                </td>
-              </tr>
-              <tr>
-                <th nowrap="">問い合わせ内容</th>
-                <td><textarea class="form-control" name="問い合わせ内容[value]" id="問い合わせ内容"></textarea></td>
-              </tr>
-              <tr>
-                <th nowrap=""><span class="text-danger">*</span>個人情報の取り扱い</th>
-                <td>
-                  <p class="infobox small">【利用目的】<br> 株式会社オープンループパートナーズ（以下当社）が取得した個人情報は、お問い合わせへの回答以外に使用することはございません。<br>
-                    <br> 【第三者提供】<br> 当社は、お預かりした個人情報を、法令の規定または司法手続きに基づく要請による場合を除き、第三者に提供することはございません。<br>
-                    <br> 【外部委託】<br> 当社は、お預かりした個人情報を委託することはございません。<br>
-                    <br> 【情報提供の任意性】<br> 当社への個人情報の提供は任意となっています。ただし、情報に漏れやミスがある場合、お問い合わせへの適切な回答ができない場合がございます。<br>
-                    <br> 【個人情報の開示等】<br> 個人情報の利用目的の通知、開示、訂正、追加または削除、利用又は提供の拒否、その他お問い合わせ等については、下記問い合わせ先までご一報ください。<br> 個人情報の取り扱いに関して、詳細は<a href="https://www.olp.co.jp/privacy/policy.html" target="_blank">個人情報保護方針</a>をご覧ください。<br>
-                    <br> ＜個人情報に関するお問い合わせ先＞<br> 03-5368-3762<br> privacyinfo@olp.co.jp<br> 個人情報保護管理者（HR本部 副本部長）</p>
-                  <div class="custom-control custom-radio">
-                    <input type="hidden" name="個人情報の取り扱い[params]" value="必須">
-                    <input type="radio" id="個人情報の取り扱い" name="個人情報の取り扱い[value][]" class="custom-control-input" value="個人情報の取り扱いに同意する">
-                    <label class="custom-control-label" for="個人情報の取り扱い">個人情報の取り扱いに同意する</label>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <input type="submit" value="確認" class="btn-primary d-flex my-4 mx-auto btn">
+        <div class="p-3 col-sm-12 col-md-6">
+          <img class="img-fluid d-block p-2" src="assets/img/logo01.png" width="50%">
+          <h5 class="my-3"> <b>株式会社オープンループパートナーズ札幌支店</b><br></h5>
+          <p class="mb-1"> 〒060-0001</p>
+          <p class="mb-2"> 北海道札幌市中央区北１条西３丁目２−１４<br>井門札幌ビル9F</p>
+          <p class="tel-number text-body mb-2"> TEL:011-210-1190</p>
+          <a href="https://www.olp.co.jp/" class="btn btn-sm btn-outline-dark" target="_blank"><i class="fa fa-fw fa-external-link"></i> 公式サイト</a>
+        </div>
+        <div class="p-3 col-sm-12 col-md-6">
+          <iframe width="100%" height="400" src="https://maps.google.co.jp/maps?output=embed&amp;q=北海道札幌市中央区北１条西３丁目２−１４" frameborder="0" allowfullscreen="" style="border:0" class="py-3"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0 mt-2"><i class="fa fa-fw fa-copyright"></i> 2019 Open Loop Partners, INC.</p>
         </div>
       </div>
     </div>
   </div>
-    </form>
-    <div class="py-3 bg-light" >
-      <div class="container">
-        <div class="row">
-          <div class="p-3 col-sm-12 col-md-6">
-            <img class="img-fluid d-block p-2" src="assets/img/logo01.png" width="50%">
-            <h5 class="my-3"> <b>株式会社オープンループパートナーズ札幌支店</b><br></h5>
-            <p class="mb-1"> 〒060-0001</p>
-            <p class="mb-2"> 北海道札幌市中央区北１条西３丁目２−１４<br>井門札幌ビル9F</p>
-            <p class="tel-number text-body mb-2"> TEL:011-210-1190</p>
-            <a href="https://www.olp.co.jp/" class="btn btn-outline-primary btn-sm" target="_blank"><i class="fa fa-fw fa-external-link"></i> 公式サイト</a>
-          </div>
-          <div class="p-3 col-sm-12 col-md-6">
-            <iframe width="100%" height="400" src="https://maps.google.co.jp/maps?output=embed&amp;q=北海道札幌市中央区北１条西３丁目２−１４" frameborder="0" allowfullscreen="" style="border:0" class="py-3"></iframe>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p class="mb-0 mt-2"><i class="fa fa-fw fa-copyright"></i> 2019 Open Loop Partners, INC.</p>
-          </div>
-        </div>
-      </div>
-    </div>
 </body>
 
 </html>
